@@ -1,7 +1,7 @@
 # Scientific Collaboration Network
 This repository consists of all the scripts that I wrote as a class project named 'Scientific Collaboration Networks' during Networks of Life course (7th semester B.Tech) under supervision of Dr. Kamal Rawal. 
 
-Below is the description of directories namely pubmedScrap (Scarping emails from pubmed), sendEmail (sending automating mails from python) and analysis (plotting degree distributing of observed data).
+Below is the description of directories namely <b> pubmedScrap </b> (Scarping emails from pubmed), <b> sendEmail </b> (sending automating mails from python) and <b> analysis </b> (plotting degree distributing of observed data).
 
 # A) Scraping emails from pubmed.
 
@@ -34,7 +34,7 @@ if you can see 'The authentication flow has completed.' on the webpage then auth
 <img src='screenshots/S2.PNG'/>
 
 ### Step-4: client_secret.json
-Follow step-1 provided as an answer by apadana on Stack Overflow. Save file as client_secret.json in same directory. 
+Follow step-1 provided as an answer by apadana on Stack Overflow. <b> Rename file as client_secret.json and paste it in sendEmail directory </b>. 
 https://stackoverflow.com/a/37267330
 <img src='screenshots/S3.PNG'/>
 <img src='screenshots/S4.PNG'/>
@@ -49,6 +49,7 @@ Excecute script using any one of these (depends on python version and path varia
                                                       py -3 sendEmail.py
 <img src='screenshots/S5.PNG'/>
 If something like this is displayed then email is sent successfully else explore Stack Overflow for solution. 
+
 
 # C) Analysis of degree distribution of data
 
