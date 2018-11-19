@@ -140,22 +140,21 @@ def readtoEmails():
 
 def main():
 
-    f=open("details_v2.csv","r")
+    f=open("details_v3.csv","r")
     next(f)
     for l in f:
-        row=l.split(",")
+        row=l.split("|#|")
 
 
         to,authorName,title,journalName=chain(row)
         if to[-1]==".":
             to=to[:-1]
         emailBody=readSampleMail(authorName,title,journalName)
-        to = "rawalgenomicslab@gmail.com"
+      
         sender = "scientificdummy1234@gmail.com"
-        #toList=readtoEmails()
-        #for to in toList:
+ 
         
-        subject = "Test Mail"
+        subject = "Obesity Networks"
         msgHtml = "Hi Html Email"
         msgPlain = "Hi Plain Email"
         SendMessage(sender, to, subject, emailBody, msgPlain)
