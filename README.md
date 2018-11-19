@@ -17,11 +17,12 @@ Click on Send to, select file and select MEDLINE format followed by clicked crea
 
 ### Step-3: Excecute
 Excecute extractFromPubmed.py script (preferabily on command prompt). 
+<pre><b>
                                               python extractFromPubmed.py
-
+</b></pre>
 Note: By default it takes file named 'pubmed_result.txt' as input as writes file named 'details_v3.csv'.
 '|#|' is used as default separator. The format of output is Email, Author, Title of Research Paper and Venue of publication. 
-
+<hr/>
 # B) Sending multiple emails using python and gmail.
 Paste the file with emails (details_v3.csv) inside sendEmail directory and follow below steps required for verification of sender's email id.
 
@@ -45,12 +46,13 @@ https://stackoverflow.com/a/37267330
 
 ### Step-5: Excecute 
 Excecute script using any one of these (depends on python version and path variable)
-
+<pre><b>
                                                       python sendEmail.py
                                                       Or
                                                       python3 sendEmail.py
                                                       Or
                                                       py -3 sendEmail.py
+</pre></b>
 <img src='screenshots/S5.PNG'/>
 If something like this is displayed then email is sent successfully else explore Stack Overflow for solution. 
 
