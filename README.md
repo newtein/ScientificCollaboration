@@ -65,7 +65,7 @@ Sample data is of research papers published in molecular docking disiciplines. N
 <img src='analysis/images/journal2.png'/>
 
 ### Number of molecular docking articles grouped by journals  (All)
-<img src='analysis/images/journal1.png'/>
+<img src='analysis/images/Journal1.png'/>
 
 ### Number of molecular docking articles grouped by authors (Top - 10)
 <img src='analysis/images/author2.png'/>
