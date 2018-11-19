@@ -1,7 +1,9 @@
 # Scientific Collaboration Network
 This repository consists of all the scripts that I wrote as a class project named 'Scientific Collaboration Networks' during Networks of Life course (7th semester B.Tech) under supervision of Dr. Kamal Rawal. 
 
-# A) Steps to scrape emails from pubmed.
+Below is the description of directories namely pubmedScrap (Scarping emails from pubmed), sendEmail (sending automating mails from python) and analysis (plotting degree distributing of observed data).
+
+# A) Scraping emails from pubmed.
 
 ### Step-1: Search required term 
 Search appropriate term at <a href='https://www.ncbi.nlm.nih.gov/pubmed' target='_blank'> Pubmed </a>
@@ -16,7 +18,7 @@ Excecute extractFromPubmed.py script (preferabily on command prompt).
 Note: By default it takes file named 'pubmed_result.txt' as input as writes file named 'details_v3.csv'.
 '|#|' is used as default separator. The format of output is Email, Author, Title of Research Paper and Venue of publication. 
 
-# B) Steps to send multiple emails using python and gmail.
+# B) Sending multiple emails using python and gmail.
 Paste the file with emails (details_v3.csv) inside sendEmail directory and follow below steps required for verification of sender's email id.
 
 ### Step-1: Extract sendEmail folder
@@ -40,10 +42,28 @@ https://stackoverflow.com/a/37267330
 ### Step-5: Excecute 
 Excecute script using any one of these (depends on python version and path variable)
 
-python sendEmail.py
-Or
-python3 sendEmail.py
-Or
-py -3 sendEmail.py
+                                                      python sendEmail.py
+                                                      Or
+                                                      python3 sendEmail.py
+                                                      Or
+                                                      py -3 sendEmail.py
 <img src='screenshots/S5.PNG'/>
-If something like this is displayed then email is sent successfully else explore Stack Overflow for solution. Thanks!
+If something like this is displayed then email is sent successfully else explore Stack Overflow for solution. 
+
+# C) Analysis of degree distribution of data
+
+Sample data is of research papers published in molecular docking disiciplines. Number of papers published in a journal and Number of papers published by an author follows scale-free degree distribution. 
+
+### Number of molecular docking articles grouped by journals (Top - 10)
+<img src='analysis/images/journal2.png'/>
+
+### Number of molecular docking articles grouped by journals  (All)
+<img src='analysis/images/journal1.png'/>
+
+### Number of molecular docking articles grouped by authors (Top - 10)
+<img src='analysis/images/author2.png'/>
+
+### Number of molecular docking articles grouped by authors (All)
+<img src='analysis/images/author1.png'/>
+
+Thank-you for scrolling till here. 
