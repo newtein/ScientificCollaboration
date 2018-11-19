@@ -2,6 +2,10 @@
 This repository consists of all the scripts that I wrote as a class project named 'Scientific Collaboration Networks' during Networks of Life course (7th semester B.Tech) under supervision of Dr. Kamal Rawal. 
 
 Below is the description of directories namely <b> pubmedScrap </b> (Scarping emails from pubmed), <b> sendEmail </b> (sending automating mails from python) and <b> analysis </b> (plotting degree distributing of observed data).
+#### A) Scraping emails from pubmed.
+#### B) Sending multiple emails using python and gmail.
+#### C) Analysis of Degree Distribution of Data
+
 
 # A) Scraping emails from pubmed.
 
