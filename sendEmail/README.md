@@ -1,4 +1,5 @@
-Sending multiple emails using python and gmail.
+# Sending multiple emails using python and gmail.
+
 Paste the file with emails (details_v3.csv) inside sendEmail directory and follow below steps required for verification of sender's email id.
 
 ### Step-1: Extract sendEmail folder
