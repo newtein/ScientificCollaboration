@@ -22,7 +22,7 @@ Excecute extractFromPubmed.py script (preferabily on command prompt).
 </b></pre>
 Note: By default it takes file named 'pubmed_result.txt' as input as writes file named 'details_v3.csv'.
 '|#|' is used as default separator. The format of output is Email, Author, Title of Research Paper and Venue of publication. 
-<hr/>
+
 ## B) Sending multiple emails using python and gmail.
 Paste the file with emails (details_v3.csv) inside sendEmail directory and follow below steps required for verification of sender's email id.
 
