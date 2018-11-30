@@ -7,7 +7,7 @@ Below is the description of directories namely <b> pubmedScrap </b> (Scarping em
 #### C) Analysis of Degree Distribution of Data
 
 
-# A) Scraping emails from pubmed.
+## A) Scraping emails from pubmed.
 
 ### Step-1: Search required term 
 Search appropriate term at <a href='https://www.ncbi.nlm.nih.gov/pubmed' target='_blank'> Pubmed </a>
@@ -22,8 +22,8 @@ Excecute extractFromPubmed.py script (preferabily on command prompt).
 </b></pre>
 Note: By default it takes file named 'pubmed_result.txt' as input as writes file named 'details_v3.csv'.
 '|#|' is used as default separator. The format of output is Email, Author, Title of Research Paper and Venue of publication. 
-<hr/>
-# B) Sending multiple emails using python and gmail.
+
+## B) Sending multiple emails using python and gmail.
 Paste the file with emails (details_v3.csv) inside sendEmail directory and follow below steps required for verification of sender's email id.
 
 ### Step-1: Extract sendEmail folder
