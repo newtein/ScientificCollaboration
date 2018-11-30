@@ -1,0 +1,14 @@
+<i>Dear {},</i><br/><br/>
+
+We have read your paper titled <b> "{}" </b> published in <b> "{}" </b> with great interest. Our group has recently published an extensive survey of molecular docking tools and their applications using machine learning and expert curation on BioArxiv.<br/><br/>Since you have made important contribution in the field of molecular docking, we would like to invite you to write a small section reviewing your contribution in the next version of the paper. Your contribution shall be duly acknowledged and co-authorship shall be given to you.
+<br/><br/>
+A) We are providing you draft paper which you are free to edit and send us your contribution through following link:
+<br/><br/>
+B) We are using principles of network sciences (references) to build a network on scientific collaborations for review of molecular docking and its applications. You shall be considered to be a 
+<br/><br/>
+C) This collaborative paper is slated to get published in December 2018/January 2019.
+<br/><br/>
+D) Important Deadlines: 
+<br/><br/>
+<i>Sincerely<br/>
+Rawal Geomics Lab</i>
