@@ -11,6 +11,7 @@ from email.mime.image import MIMEImage
 from email.mime.audio import MIMEAudio
 from email.mime.base import MIMEBase
 from itertools import chain
+import time
 
 SCOPES = 'https://www.googleapis.com/auth/gmail.send'
 CLIENT_SECRET_FILE = 'client_secret.json'
@@ -141,27 +142,51 @@ def readtoEmails():
 def main():
 
     f=open("details_v3.csv","r")
+    f2=open('Sent.txt','a')
+    maximum = 150
+    count=1
     next(f)
     for l in f:
         row=l.split("|#|")
-
-
         to,authorName,title,journalName=chain(row)
         if to[-1]==".":
             to=to[:-1]
         emailBody=readSampleMail(authorName,title,journalName)
       
         sender = "scientificdummy1234@gmail.com"
- 
-        
         subject = "Obesity Networks"
         msgHtml = "Hi Html Email"
         msgPlain = "Hi Plain Email"
         SendMessage(sender, to, subject, emailBody, msgPlain)
-        
-        # Send message with attachment: 
-        #SendMessage(sender, to, subject, msgHtml, msgPlain, '/path/to/file.pdf')
+        f2.write(to+'\n') if to is not None else pass
+        if count==maximum:
+            print('Sleeping for rest of the day...')
+            time.sleep(43200)
+            count=0
+            print('Started sending new set of emails...\n')
+        time.sleep(300)
+        count+=1
+     
 
+    f.close()
+    f2.close()
+
+    f=open("details_v3.csv",'r')
+    f2=open('temp.csv','w')
+    count=1
+    for l in f:
+        if count>=maximum:
+            f2.write(l)
+        count+=1
+    f2.close()
+    f.close()
+
+    f=open("details_v3.csv",'w')
+    f2=open('temp.csv','r')
+    for l in f2:
+        f.write(l)
+    f.close()
+    f2.close()
 
 
 if __name__ == '__main__':
