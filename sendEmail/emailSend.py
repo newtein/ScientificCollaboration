@@ -158,7 +158,7 @@ def main():
         msgHtml = "Hi Html Email"
         msgPlain = "Hi Plain Email"
         SendMessage(sender, to, subject, emailBody, msgPlain)
-        f2.write(to+'\n') if to is not None else pass
+        f2.write(to+'\n') 
         if count==maximum:
             print('Sleeping for rest of the day...')
             time.sleep(43200)
