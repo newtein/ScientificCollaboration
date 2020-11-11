@@ -1,10 +1,10 @@
-# Scientific Collaboration Network
-This repository consists of all the scripts that I wrote as a class project named 'Scientific Collaboration Networks' during Networks of Life course (7th semester B.Tech) under supervision of Dr. Kamal Rawal. 
+# Mass Emailing through Gmail (Example illustrated through PubMed)
 
-Below is the description of directories namely <b> pubmedScrap </b> (Scarping emails from pubmed), <b> sendEmail </b> (sending automating mails from python) and <b> analysis </b> (plotting degree distributing of observed data).
+
+Specifically, below is the description of directories namely <b> pubmedScrap </b> (Scarping emails from pubmed), and <b> sendEmail </b> (sending automating mails from python) 
 #### A) Scraping emails from pubmed.
 #### B) Sending multiple emails using python and gmail.
-#### C) Analysis of Degree Distribution of Data
+
 
 
 ## A) Scraping emails from pubmed.
@@ -57,20 +57,3 @@ Excecute script using any one of these (depends on python version and path varia
 If something like this is displayed then email is sent successfully else explore Stack Overflow for solution. 
 
 
-# C) Analysis of degree distribution of data
-
-Sample data is of research papers published in molecular docking disiciplines. Number of papers published in a journal and Number of papers published by an author follows scale-free degree distribution. 
-
-### Number of molecular docking articles grouped by journals (Top - 10)
-<img src='analysis/images/journal2.png'/>
-
-### Number of molecular docking articles grouped by journals  (All)
-<img src='analysis/images/Journal1.png'/>
-
-### Number of molecular docking articles grouped by authors (Top - 10)
-<img src='analysis/images/author2.png'/>
-
-### Number of molecular docking articles grouped by authors (All)
-<img src='analysis/images/author1.png'/>
-
-Thank-you for scrolling till here. 

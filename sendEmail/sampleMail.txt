@@ -2,21 +2,7 @@
 
 1. We have read your paper titled <b> "{}" </b> published in <b> "{}" </b> with great interest.  <br/><br/>
 
-2. Our research group has published a paper on networks of molecules implicated in obesity using machine learning and expert curation in Plos One in 2016  
- (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146759). 
-
-This work shows a new approach of combining data from heterogeneous databases including literature, structure and microarrays to construct disease networks and attempt to explain therapeutics of a drug molecule in context of networks.
- <br/><br/>
-
-3. As a part of our continuing interest to take this research project to new level, our research group intend to compile all possible research studies and incorporate new genes or proteins & other relevant information in the network. We also want to include new experimental and clinical data related to obesity in future version of this project. The objective is to build one of the most comprehensive resource base in obesity and related diseases which shall help society to combat the obesity epidemic and its induced diseases. <br/><br/>
-
-We believe that, you have published in the area of obesity and would be interested to participate in this project.<br/><br/>
-
-Therefore, we would like to invite you to share your published/unpublished experimental (molecular/pharmacogenomic) data, disease/clinical or epidemiological data which can be included in the next version of this project on obesity and related diseases. 
-
-We would also invite you to write a small section reviewing your contribution in the next version of the review/research paper titled as "Obesity Network 2.0: A collaborative viewpoint". <br/><br/>
-
-Further, you may invite other relevant co-authors/colleagues in this proposed project/research paper or assign your students/assistants on this project.
+<INSERT PRODUCT DETAILS>
 
  <br/><br/>
 
@@ -26,30 +12,14 @@ A) We are providing you a form on following link where you can add your informat
 
 <i>
 
-www.tinyurl.com/obesitynetworkpaper
+<INSERT SAMPLE FORM LINK HERE]
 
 </i>
 
 <br/><br/>
 
-B) We are using principles of network sciences to build a network on scientific collaborations for role of molecules in obesity and related diseases. This shall be exciting networked project taking human co-operation at next level. For instance, majority of this work is performed through machine learning programs under human supervision. This includes shortlisting & reading of your research paper from PubMed (out of 27 million abstracts/papers), sending emails and incorporating your feedback/responses.<br/><br/>
-
-C) This collaborative paper is slated to get published in  Second quarter of 2019. <br/><br/>
-
 
 In case you have any questions, you are free to write back on this email id.<br/><br/>
 
 Yours Sincerely,<br/>
-Scientific Networks Team<br/><br/>
-
-Website: <br/>
-Important Links: <br/> 
-(A) Our already published work for reference (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146759) <br/> <br/> 
-
-(B) https://sites.google.com/site/obesityacomprehensivemap/home <br/> <br/>
-
-(C)  Dedicated Website for details on obesity networks initiative: http://tinyurl.com/obesitynetworking
-<br/> <br/>
-D) Important Dates/Deadlines: <br/><br/>
-  1. Reply of email - 30 days from the receipt of the email.<br/>
-  2. Your contribution/review-  90 days the receipt of the email.<br/><br/><br/>
+Honest Blocks Team<br/><br/>
